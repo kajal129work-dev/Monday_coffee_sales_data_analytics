@@ -35,6 +35,7 @@ The goal of this project is to analyze the sales data of Monday Coffee, a compan
 
 10. **Market Potential Analysis**  
     Identify top 3 city based on highest sales, return city name, total sale, total rent, total customers, estimated  coffee consumer
+
     
 ## Recommendations
 After analyzing the data, the recommended top three cities for new store openings are:
@@ -52,10 +53,4 @@ After analyzing the data, the recommended top three cities for new store opening
 1. **Low Overhead:** Features the lowest total rent cost (15,300), significantly reducing initial operating expenses.
 2. **Stable Returns:** Maintains a high average sales per customer (21,901), very competitive with Chennai and Bangalore.
 3. **Low Risk:** Offers a solid potential market of 1.88 million coffee consumers, providing a high-growth opportunity with lower investment risk.
-
-**City 3: Jaipur**  
-1. Highest number of customers, which is 69.  
-2. Average rent per customer is very low at 156.  
-3. Average sales per customer is better at 11.6k.
-
 ---
