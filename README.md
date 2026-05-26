@@ -10,7 +10,7 @@ The goal of this project is to analyze the sales data of Monday Coffee, a compan
    How many people in each city are estimated to consume coffee, given that 25% of the population does?
 
 2. **Total Revenue from Coffee Sales**  
-   What is the total revenue generated from coffee sales across all cities in the last quarter of 2023?
+   What is the total revenue generated from coffee sales across all cities in the third quarter of 2023?
 
 3. **Sales Count for Each Product**  
    How many units of each coffee product have been sold?
@@ -36,19 +36,22 @@ The goal of this project is to analyze the sales data of Monday Coffee, a compan
 10. **Market Potential Analysis**  
     Identify top 3 city based on highest sales, return city name, total sale, total rent, total customers, estimated  coffee consumer
     
-
 ## Recommendations
 After analyzing the data, the recommended top three cities for new store openings are:
 
-**City 1: Pune**  
-1. Average rent per customer is very low.  
-2. Highest total revenue.  
-3. Average sales per customer is also high.
+### City 1: Chennai
+1. **Highest Revenue:** Generated the highest total revenue among the top three at 944,120.
+2. **Cost Efficiency:** Offers a low average rent per customer (approx. 407), ensuring better operating margins.
+3. **Strong Performance:** Supported by a robust base of 42 customers and the highest average sales per customer at 22,479.
 
-**City 2: Delhi**  
-1. Highest estimated coffee consumers at 7.7 million.  
-2. Highest total number of customers, which is 68.  
-3. Average rent per customer is 330 (still under 500).
+### City 2: Bangalore
+1. **Market Reach:** Represents the largest estimated coffee consumer market among these top cities at 3.08 million.
+2. **Strong Demand:** Shows a healthy balance with 39 unique customers and high average sales per customer (22,054), indicating strong market demand.
+
+### City 3: Pune
+1. **Low Overhead:** Features the lowest total rent cost (15,300), significantly reducing initial operating expenses.
+2. **Stable Returns:** Maintains a high average sales per customer (21,901), very competitive with Chennai and Bangalore.
+3. **Low Risk:** Offers a solid potential market of 1.88 million coffee consumers, providing a high-growth opportunity with lower investment risk.
 
 **City 3: Jaipur**  
 1. Highest number of customers, which is 69.  
