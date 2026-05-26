@@ -1,58 +1,58 @@
-# Monday Coffee Sales Data Analysis
+# Monday Coffee Expansion SQL Project
 
-## Project Overview
-This project involves an end-to-end data analysis of "Monday Coffee" sales performance. The goal was to identify the top three cities in India for potential retail expansion by analyzing customer demographics, sales revenue, and rental costs using SQL.
+![Company Logo](https://github.com/najirh/Monday-Coffee-Expansion-Project-P8/blob/main/1.png)
 
-## Business Questions
-I analyzed the following key metrics to support data-driven decision-making:
-- **Market Potential:** Which cities have the highest sales volume and largest coffee-consuming population?
-- **Customer Insights:** How does the average sales per customer vary across different regions?
-- **Cost-Efficiency:** Which cities offer the best balance between rent and revenue generation?
+## Objective
+The goal of this project is to analyze the sales data of Monday Coffee, a company that has been selling its products online since January 2023, and to recommend the top three major cities in India for opening new coffee shop locations based on consumer demand and sales performance.
 
-## Tools & Technologies
-- **Database Management:** MySQL
-- **Data Analysis:** SQL (Data cleaning, aggregation, and filtering)
+## Key Questions
+1. **Coffee Consumers Count**  
+   How many people in each city are estimated to consume coffee, given that 25% of the population does?
 
-## Analysis Highlights
-* **Customer Segmentation:** Identified unique customer behaviors across various cities.
-* **Growth Trends:** Calculated monthly sales growth rates to identify high-performing periods.
-* **Expansion Strategy:** Recommended the top 3 cities (Pune, Delhi, Jaipur) based on a low rent-to-sales ratio and high customer density.
+2. **Total Revenue from Coffee Sales**  
+   What is the total revenue generated from coffee sales across all cities in the last quarter of 2023?
 
-## Project Structure
-- `sales.csv`, `customers.csv`, `products.csv`, `city.csv`: Raw datasets used for the analysis.
-- `Solutions.sql`: Contains all the MySQL queries used to extract insights.
-- `README.md`: Project documentation.
+3. **Sales Count for Each Product**  
+   How many units of each coffee product have been sold?
 
-## Key Questions Solved
-I performed a comprehensive analysis in MySQL to answer these 10 business questions:
+4. **Average Sales Amount per City**  
+   What is the average sales amount per customer in each city?
 
-1. **Coffee Consumers Count:** Estimated the coffee-consuming population in each city (assuming 25% of the population).
-2. **Total Revenue:** Calculated the total revenue generated from coffee sales in Q3 2023.
-3. **Product Performance:** Counted the total units sold for each individual coffee product.
-4. **Average Sales per City:** Determined the average sales amount per customer across different cities.
-5. **City Demographics:** Mapped city populations against the estimated coffee-consuming population.
-6. **Top Selling Products:** Identified the top 3 selling products in each city based on sales volume.
-7. **Customer Segmentation:** Counted the number of unique customers in each city who have purchased coffee.
-8. **Rent vs. Revenue:** Analyzed the relationship between average rent per customer and average sales per customer.
-9. **Monthly Sales Growth:** Calculated the month-over-month percentage growth in sales to identify performance trends.
-10. **Market Potential Analysis:** Ranked the top 3 cities for expansion based on high sales, customer density, and low rent costs.
+5. **City Population and Coffee Consumers**  
+   Provide a list of cities along with their populations and estimated coffee consumers.
+
+6. **Top Selling Products by City**  
+   What are the top 3 selling products in each city based on sales volume?
+
+7. **Customer Segmentation by City**  
+   How many unique customers are there in each city who have purchased coffee products?
+
+8. **Average Sale vs Rent**  
+   Find each city and their average sale per customer and avg rent per customer
+
+9. **Monthly Sales Growth**  
+   Sales growth rate: Calculate the percentage growth (or decline) in sales over different time periods (monthly).
+
+10. **Market Potential Analysis**  
+    Identify top 3 city based on highest sales, return city name, total sale, total rent, total customers, estimated  coffee consumer
+    
 
 ## Recommendations
 After analyzing the data, the recommended top three cities for new store openings are:
 
-### City 1: Chennai
-1. **Highest Revenue:** Generated the highest total revenue among the top three at 944,120.
-2. **Cost Efficiency:** Offers a low average rent per customer (approx. 407), ensuring better operating margins.
-3. **Strong Performance:** Supported by a robust base of 42 customers and the highest average sales per customer at 22,479.
+**City 1: Pune**  
+1. Average rent per customer is very low.  
+2. Highest total revenue.  
+3. Average sales per customer is also high.
 
-### City 2: Bangalore
-1. **Market Reach:** Represents the largest estimated coffee consumer market among these top cities at 3.08 million.
-2. **Strong Demand:** Shows a healthy balance with 39 unique customers and high average sales per customer (22,054), indicating strong market demand.
+**City 2: Delhi**  
+1. Highest estimated coffee consumers at 7.7 million.  
+2. Highest total number of customers, which is 68.  
+3. Average rent per customer is 330 (still under 500).
 
-### City 3: Pune
-1. **Low Overhead:** Features the lowest total rent cost (15,300), significantly reducing initial operating expenses.
-2. **Stable Returns:** Maintains a high average sales per customer (21,901), very competitive with Chennai and Bangalore.
-3. **Low Risk:** Offers a solid potential market of 1.88 million coffee consumers, providing a high-growth opportunity with lower investment risk.
+**City 3: Jaipur**  
+1. Highest number of customers, which is 69.  
+2. Average rent per customer is very low at 156.  
+3. Average sales per customer is better at 11.6k.
 
-## Conclusion
-The analysis successfully provided actionable insights for the business expansion team, highlighting cities where the return on investment for new coffee shops would be most favorable.
+---
